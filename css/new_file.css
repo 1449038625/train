@@ -1,0 +1,63 @@
+#container{
+	background-color: #f0f0f0;		/*背景颜色*/
+	margin: 0 15%;
+}
+
+h1{
+	height: 70px;
+	color: white; 					/*字体颜色*/
+	background: cornflowerblue;		/*背景颜色*/
+	line-height: 70px;				/*行间距*/
+	text-indent: 70px;				/*文本缩进*/
+}
+
+#nav{
+	text-align: center;
+}
+
+#nav li{
+	display: inline-block;  /*设置元素为行内块级元素*/
+	width:100px;
+	height: 30px;
+	background-color:cornflowerblue;
+	line-height: 30px;		/*需要与高度保持一致就在正中间*/
+	color: white;
+	border: 1px solid cornflowerblue;/*边框*/
+	border-radius: 0 10px;			/*边框左下角和右上角变圆10px*/
+	
+}
+
+#nav li a{
+	text-decoration: none;
+	color: white;
+}
+
+/*设置a的伪类选择器 : hover字体加粗*/
+#nav li a:hover{
+	font-weight:bold ;
+}
+
+.center{
+	text-align: center;
+}
+
+.margin{
+	margin:0 30px;
+	}
+
+#userinfo p{
+	text-indent: 30px;
+}
+
+textarea{
+	width: 100%;
+	height: 100px;
+}
+
+#copyright{
+	background:cornflowerblue;		/*背景颜色*/
+	text-align: center;
+	color: white;
+	height: 30px;
+	background-color:cornflowerblue;
+}
